@@ -1,0 +1,122 @@
+
+.div1{
+    
+    position: absolute;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%{
+        left: 0px;   
+    }
+    100%{
+        left:1450;        
+    }  
+}
+
+    
+.div2{
+    width: 75px;
+    height: 75px;
+    margin-top: 100px;
+    position: absolute;
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    left:1450;    
+}
+@keyframes change2{
+    0%{
+        left:1450;        
+    }
+    100%{
+        left: 0px;
+        
+    }  
+}
+.div3{
+    width: 75px;
+    height: 75px;
+   margin-top:200px ;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    
+}
+@keyframes change3{
+    0%{
+        left: 0px;
+        
+    }
+    100%{
+        left:1450;        
+    }  
+}
+.div4{
+    width: 75px;
+    height: 75px;
+    margin-top: 300px;
+    position: absolute;
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    left:1450;    
+}
+@keyframes change4{
+    0%{
+        left:1450;        
+    }
+    100%{
+        left: 0px;
+        
+    }  
+}
+.div5{
+    width: 75px;
+    height: 75px;
+   margin-top:400px ;
+    position: absolute;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay:8s;
+    
+}
+@keyframes change5{
+    0%{
+        left: 0px;
+        
+    }
+    100%{
+        left:1450;
+        
+    }  
+}
+.div6{
+    width: 75px;
+    height: 75px;
+    margin-top: 500px;
+    position: absolute;
+    animation-name: change6;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    left:1450;
+    
+    
+}
+@keyframes change6{
+    0%{
+        left: 1200px;
+        
+    }
+    100%{
+        left: 0px;
+        
+    }  
+}
